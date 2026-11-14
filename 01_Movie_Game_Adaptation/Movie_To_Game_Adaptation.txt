@@ -1,5 +1,8 @@
 ================================================================================
 MOVIE / FILM TO VIDEO GAME ADAPTATION
+Student Name : Justin Nolasco
+Section      : IT701P
+Subject      : Game Dev
 Selected Film: Mad Max: Fury Road (2015)
 Adapted Game Title: "FURY ROAD: CITADEL CONVOY"
 Grading Breakdown: 2 Items x 25 Points = 50 Points

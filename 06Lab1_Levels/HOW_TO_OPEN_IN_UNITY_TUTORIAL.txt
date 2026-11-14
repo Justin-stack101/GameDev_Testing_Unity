@@ -1,5 +1,8 @@
 ================================================================================
 STEP-BY-STEP TUTORIAL: HOW TO OPEN & BUILD THESE PROJECTS IN UNITY
+Student Name : Justin Nolasco
+Section      : IT701P
+Subject      : Game Dev
 Covers:
   1. IT2107 - 06 Laboratory Exercise 1 (Levels - 2 Prefab-Based Game Levels)
   2. IT2012 - 04 Laboratory Exercise 1 (04Lab1 - Play2.unity 2D Obstacle Game)
@@ -7,21 +10,19 @@ Covers:
 ================================================================================
 
 --------------------------------------------------------------------------------
-PART 1: HOW TO OPEN "06Lab1_Levels" (Surname_Firstname) IN UNITY HUB
+PART 1: HOW TO OPEN "06Lab1_Levels" (Nolasco_Justin) IN UNITY HUB
 --------------------------------------------------------------------------------
 
-STEP 1: Rename the Project Folder to Your Real Name (Optional / Recommended)
-  1. Go to the folder:
-     06Lab1_Levels\Surname_Firstname
-  2. Rename "Surname_Firstname" to your actual Surname and Firstname
-     (for example: DelaCruz_Juan).
+STEP 1: Project Folder Already Named <Surname_Firstname>
+  1. Your project folder is already named after you at:
+     06Lab1_Levels\Nolasco_Justin
 
 STEP 2: Add the Project to Unity Hub
   1. Open the "Unity Hub" application on your computer.
   2. In the "Projects" tab, click the dropdown arrow next to "Add" (top right)
      and select "Add project from disk".
   3. Browse to and select the folder:
-     06Lab1_Levels\Surname_Firstname (or your renamed <Surname_Firstname> folder)
+     06Lab1_Levels\Nolasco_Justin
   4. Click "Add Project".
 
 STEP 3: Open the Project in Unity Editor
