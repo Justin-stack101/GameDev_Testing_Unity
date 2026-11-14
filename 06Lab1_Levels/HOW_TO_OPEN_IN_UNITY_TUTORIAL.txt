@@ -1,0 +1,112 @@
+================================================================================
+STEP-BY-STEP TUTORIAL: HOW TO OPEN & BUILD THESE PROJECTS IN UNITY
+Covers:
+  1. IT2107 - 06 Laboratory Exercise 1 (Levels - 2 Prefab-Based Game Levels)
+  2. IT2012 - 04 Laboratory Exercise 1 (04Lab1 - Play2.unity 2D Obstacle Game)
+  3. Using Unity Hub's Official "FPS Microgame" / "Karting Microgame" Template
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1: HOW TO OPEN "06Lab1_Levels" (Surname_Firstname) IN UNITY HUB
+--------------------------------------------------------------------------------
+
+STEP 1: Rename the Project Folder to Your Real Name (Optional / Recommended)
+  1. Go to the folder:
+     06Lab1_Levels\Surname_Firstname
+  2. Rename "Surname_Firstname" to your actual Surname and Firstname
+     (for example: DelaCruz_Juan).
+
+STEP 2: Add the Project to Unity Hub
+  1. Open the "Unity Hub" application on your computer.
+  2. In the "Projects" tab, click the dropdown arrow next to "Add" (top right)
+     and select "Add project from disk".
+  3. Browse to and select the folder:
+     06Lab1_Levels\Surname_Firstname (or your renamed <Surname_Firstname> folder)
+  4. Click "Add Project".
+
+STEP 3: Open the Project in Unity Editor
+  1. Click the project in Unity Hub to launch Unity Editor (e.g., Unity 6000.5.10f1).
+  2. Wait for Unity to finish importing scripts (about 15-30 seconds).
+  3. As soon as Unity opens, our automatic setup script (`LevelsPrefabSceneBuilder.cs`)
+     will automatically generate:
+     - 8 Reusable 3D Prefabs inside `Assets/Prefabs/`:
+       * `PlayerKartPrefab.prefab`
+       * `TrackFloorPrefab.prefab`
+       * `WallBarrierPrefab.prefab`
+       * `BoostRampPrefab.prefab`
+       * `CheckpointArchPrefab.prefab`
+       * `CollectibleOrbPrefab.prefab`
+       * `MovingHazardPrefab.prefab`
+       * `GoalPortalPrefab.prefab`
+     - Two (2) Complete 3D Game Levels inside `Assets/Scenes/`:
+       * `Level1.unity` (Level 1: Training Course with Ramps, Orbs, Hazard, & Portal)
+       * `Level2.unity` (Level 2: Multi-Tier Elevated Course with Double Hazards & Final Portal)
+  4. TIP: You can also click the top menu bar at any time:
+     Tools -> 06Lab1 Levels -> Build Prefabs & 2 Game Levels (Level1 & Level2)
+     to rebuild or reset all Prefabs and both Levels automatically!
+
+STEP 4: Customize the Levels Using Prefabs (If You Want to Add More Objects)
+  1. In the Project window (bottom panel), open `Assets/Prefabs`.
+  2. Drag and drop any `.prefab` (`CollectibleOrbPrefab`, `BoostRampPrefab`,
+     `MovingHazardPrefab`, `WallBarrierPrefab`) directly into the Scene view!
+  3. Notice in the Hierarchy window (left panel) that all level objects have blue
+     Prefab cube icons—satisfying the 50-point "Game Design Using Prefabs" rubric.
+
+STEP 5: Test Gameplay in Unity
+  1. Open `Assets/Scenes/Level1.unity` and press the "Play" button at the top center.
+  2. Controls:
+     - W / S or Up / Down Arrow : Move Forward / Backward
+     - A / D or Left / Right Arrow : Steer / Turn Left & Right
+     - SPACEBAR : Jump
+     - 1 / 2 Keys : Switch between Level 1 and Level 2 anytime
+     - R Key : Restart current level
+  3. Collect the spinning yellow Energy Orbs, jump off the orange Boost Ramps, avoid
+     the red Moving Hazards, and touch the green Goal Portal at the end of Level 1
+     to automatically advance to Level 2!
+
+STEP 6: Build and Run (Procedure #6 for Submission)
+  1. In the Unity top menu bar, click:
+     File -> Build Settings... (or File -> Build Profiles in Unity 6)
+  2. Verify that both `Assets/Scenes/Level1.unity` (index 0) and
+     `Assets/Scenes/Level2.unity` (index 1) are checked in the "Scenes In Build" list.
+  3. Click "Build And Run".
+  4. Create a new folder named `Build` inside your project, select it, and wait for
+     Unity to compile and launch your standalone game executable!
+
+
+--------------------------------------------------------------------------------
+PART 2: ALTERNATIVE — IF YOUR INSTRUCTOR REQUIRES THE OFFICIAL UNITY HUB
+        "FPS MICROGAME" OR "KARTING MICROGAME" TEMPLATE
+--------------------------------------------------------------------------------
+If you want to download Unity's official Microgame template inside Unity Hub:
+
+  1. Open Unity Hub -> Click "New project" (top right).
+  2. Under "All templates" (or the "Learning" tab on the left), select either:
+     - "FPS Microgame" OR "Karting Microgame"
+     (Click "Download template" first if it is not yet downloaded).
+  3. Under "Project settings" on the right:
+     - Project name: <Surname_Firstname>
+     - Location: Choose your folder
+  4. Click "Create project".
+  5. Once opened:
+     - Duplicate `MainScene` in `Assets/FPS/Scenes` (or `Assets/Karting/Scenes`)
+       to create `Level1` and `Level2`.
+     - Open `Assets/FPS/Prefabs` (or `Assets/Karting/Prefabs`) and drag rooms, ramps,
+       props, and enemies into `Level1` and `Level2`.
+     - Go to `File -> Build Settings`, add both `Level1` and `Level2` to Scenes in Build,
+       and click `Build And Run`.
+
+
+--------------------------------------------------------------------------------
+PART 3: HOW TO OPEN "04Lab1" (Play2.unity - 2D Skateboard Obstacle Game)
+--------------------------------------------------------------------------------
+  1. Open Unity Hub -> Click "Add" -> "Add project from disk".
+  2. Select the `04Lab1` folder.
+  3. Open the project in Unity.
+  4. Double-click `Assets/Scenes/Play2.unity` (or click `Tools -> 04Lab1 -> Rebuild Play2 Scene`
+     in the top menu bar).
+  5. Press "Play":
+     - Press SPACE / W / UP ARROW to jump over `04 Image 3` (Triangle) and `04 Image 4` (Brick Ledge).
+     - Press A / D or LEFT / RIGHT ARROW to move horizontally.
+     - Press R to restart.
+================================================================================

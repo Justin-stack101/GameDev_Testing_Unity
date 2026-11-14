@@ -1,34 +1,22 @@
-# IT2012 — Game Development Unity Projects (`GameDev_Testing_Unity`)
+# GameDev_Testing_Unity — School Game Development Repository
 
-This repository contains Unity 3D/2D laboratory exercises and school project tasks for **IT2012**.
-Each laboratory activity is organized both in its own project folder and on a dedicated Git branch so new school tasks can be added cleanly.
-
-## Repository Branches
-
-| Branch | Project Folder | Description |
-| :--- | :--- | :--- |
-| `main` | [`04Lab1/`](./04Lab1) | Main repository branch indexing all school Game Dev activities |
-| `04Lab1` | [`04Lab1/`](./04Lab1) | **04 Laboratory Exercise 1** — *2D Game Using 3D Game Engine 2* (`Play2.unity`) |
-| `template/unity-foundation` | — | Base branch for spinning up future IT2012 laboratory exercises |
+This repository houses Unity 3D/2D laboratory projects and game design assignments for **IT2012** and **IT2107**.
+Each task is organized in its own subfolder on `main` AND pushed to its own dedicated Git branch.
 
 ---
 
-## 04 Laboratory Exercise 1 (`04Lab1`)
+## Folder & Branch Directory
 
-### Requirements & Asset Mapping
-- **Project Name**: `04Lab1`
-- **Scene Name**: `Play2.unity` (saved in `04Lab1/Assets/Scenes/Play2.unity` and `04Lab1/Assets/Play2.unity`)
-- **Sprites (`04Lab1/Assets/Sprites/`)**:
-  - `04_Image_1.png` — Suburban houses & sidewalk background (`04 Image 1`)
-  - `04_Image_2.png` — Skateboarder player character (`04 Image 2`)
-  - `04_Image_3.png` — Concrete triangle obstacle (`04 Image 3`)
-  - `04_Image_4.png` — Brick grind ledge obstacle (`04 Image 4`)
+| Branch | Folder | Course / Task | Description |
+| :--- | :--- | :--- | :--- |
+| `main` | *(All folders)* | Repository Index | Contains all laboratory exercises, design documents, and tutorials |
+| `04Lab1` | [`04Lab1/`](./04Lab1) | **IT2012 — 04 Lab Exercise 1** | *2D Game Using 3D Game Engine 2* (`Play2.unity` with `04 Image 1..4`) |
+| `06Lab1-Levels` | [`06Lab1_Levels/`](./06Lab1_Levels) | **IT2107 — 06 Lab Exercise 1** | *Levels* — Two (2) 3D gameplay levels (`Level1.unity` & `Level2.unity`) built with modular Prefabs |
+| `task/movie-game-adaptation` | [`01_Movie_Game_Adaptation/`](./01_Movie_Game_Adaptation) | **Movie to Video Game Adaptation** | Complete 50-pt breakdown of **Story Elements** (10 items) and **Characters** (12 archetypes) |
+| `task/original-game-concept` | [`02_Original_Game_Concept/`](./02_Original_Game_Concept) | **Original Video Game Concept** | Complete 60-pt Game Design Document (*Resonance of Vitrea*) covering Gameplay, Rules, Victory/Loss, Interactivity, Challenges, and Structure |
+| `template/unity-foundation` | — | Base Template | Clean foundation branch for future Unity school tasks |
 
-### How to Open & Run in Unity
-1. Open **Unity Hub** -> Click **Add** -> **Add project from disk** -> Select the `04Lab1` folder.
-2. Open the project in Unity (`6000.5.10f1` or any Unity 2021.3+ editor).
-3. Open `Assets/Scenes/Play2.unity` (or click **Tools > 04Lab1 > Rebuild Play2 Scene** in the top menu bar to auto-configure and load `Play2.unity`).
-4. Press **Play**:
-   - **Jump**: `Space`, `W`, or `Up Arrow`
-   - **Move Left / Right**: `A` / `D` or `Left` / `Right Arrow`
-   - **Restart**: `R`
+---
+
+## Quick Tutorial: How to Open & Build in Unity
+See [`HOW_TO_OPEN_IN_UNITY_TUTORIAL.txt`](./HOW_TO_OPEN_IN_UNITY_TUTORIAL.txt) (also inside [`06Lab1_Levels/HOW_TO_OPEN_IN_UNITY_TUTORIAL.txt`](./06Lab1_Levels/HOW_TO_OPEN_IN_UNITY_TUTORIAL.txt)) for step-by-step instructions on opening `04Lab1` and `06Lab1_Levels/Surname_Firstname` in Unity Hub and running `File > Build Settings > Build And Run`.

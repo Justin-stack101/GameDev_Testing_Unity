@@ -1,0 +1,161 @@
+================================================================================
+MOVIE / FILM TO VIDEO GAME ADAPTATION
+Selected Film: Mad Max: Fury Road (2015)
+Adapted Game Title: "FURY ROAD: CITADEL CONVOY"
+Grading Breakdown: 2 Items x 25 Points = 50 Points
+================================================================================
+
+--------------------------------------------------------------------------------
+ITEM 1: STORY ELEMENTS (25 Points)
+--------------------------------------------------------------------------------
+
+1. Premise:
+   In a sun-scorched post-apocalyptic wasteland where water and gasoline ("Guzzoline")
+   are controlled by a tyrannical warlord, a haunted drifter and a rebel War Rig
+   commander form an uneasy alliance to smuggle five captive women across a ruthless
+   desert highway—and ultimately fight their way back to liberate the Citadel itself.
+
+2. Backstory:
+   Following nuclear and ecological collapse, civilization fell into resource wars.
+   Max Rockatansky, a former Main Force Patrol officer, lost his family and sanity
+   to marauding gangs and now wanders the desert alone. Meanwhile, Immortan Joe seized
+   the Citadel's underground aquifer, ruling the impoverished "Wretched" through water
+   monopoly, a fanatical army of "War Boys" promised rebirth in Valhalla, and neighboring
+   trade fortresses (Gas Town and the Bullet Farm). Imperator Furiosa, abducted as a
+   child from the fertile "Green Place of Many Mothers," rose through Joe's ranks
+   while secretly planning an escape.
+
+3. Synopsis:
+   Captured by War Boys and used as a universal blood donor ("Blood Bag") for Nux,
+   Max is strapped to a pursuit car when Imperator Furiosa betrays Immortan Joe by
+   veering her armored War Rig off-route with Joe's five prized "Wives." After surviving
+   a toxic sandstorm, Max frees himself and reluctantly teams up with Furiosa and the
+   Wives to outrun three combined war parties (the Citadel, Gas Town, and the Bullet
+   Farm). When they discover the Green Place has withered into a poisoned swamp, Max
+   convinces Furiosa and the surviving Vuvalini warriors not to ride into the endless
+   salt flats, but to turn the War Rig around and race back through Joe's armies to
+   capture the undefended Citadel.
+
+4. Theme:
+   Redemption over mere survival, bodily autonomy ("We are not things!"), breaking
+   cycles of fanaticism, and reclaiming hope by confronting tyranny head-on rather
+   than running away into an idealized past.
+
+5. Setting:
+   A harsh, rust-and-chrome Australian wasteland during the mid-21st century post-collapse.
+   Key playable environments include:
+   - The Citadel: Vertical rock mesas carved with hydro-lifts, warrens, and vehicle bays.
+   - Fury Road & Canyon of the Rock Riders: Narrow rocky passes rigged with explosive traps.
+   - The Toxic Storm Zone: Zero-visibility electrical dust tornadoes.
+   - The Dead Marsh / Former Green Place: Eerie, mud-choked nocturnal wetlands on stilts.
+   - The Salt Flats Edge: Endless blinding white expanses.
+
+6. Plot:
+   - Act I (Escape & Storm): Furiosa diverts the War Rig; Immortan Joe mobilizes his
+     armada; Max escapes captivity during a sandstorm and forms a truce with Furiosa.
+   - Act II (The Gauntlet & Disillusionment): The crew negotiates with the Canyon Rock
+     Riders, repels Joe's monster trucks, loses Angharad in a high-speed clash, and
+     reaches the Vuvalini—only to learn the Green Place is dead.
+   - Act III (The U-Turn & Liberation): Max proposes retaking the Citadel. Together with
+     the reformed War Boy Nux and the Vuvalini bikers, they fight backward through Joe's
+     convoy, kill Immortan Joe, block the canyon pass, and open the Citadel's water pipes
+     to the people.
+
+7. Balancing Conflict:
+   The game balances three interwoven layers of conflict so no single threat dominates:
+   - External Vehicular Combat (convoy ambushes, boarding parties, harpoons, fuel shortages).
+   - Environmental Hazards (toxic sandstorms, overheating engines, deep mud traps, canyon
+     rockslides).
+   - Internal Trust & Resource Tension (managing scarce ammunition, water/blood health
+     reserves, and repairing the War Rig while keeping the unarmed Wives safe).
+
+8. Shifting Focus:
+   Narrative and gameplay focus dynamically shifts between:
+   - Max Rockatansky (tactical road survival, close-quarters brawling, interceptor driving,
+     and point-defense sniping).
+   - Imperator Furiosa (heavy War Rig piloting, long-range precision marksmanship, and
+     convoy command).
+   - Nux (high-risk mechanical repairs on moving vehicles and sacrificial crowd-control).
+   This dual/tri-perspective keeps pacing fresh across driving, boarding, and stealth/repair
+   sequences.
+
+9. Suspension of Disbelief:
+   Players accept heightened, operatic wasteland spectacles—such as the Doof Wagon (a
+   missile truck mounted with a wall of amplifiers and a flame-throwing guitarist),
+   pole-vaulting boarders swinging on 20-foot pendulums at 60 mph, and homemade V8 hot-rods
+   surviving massive desert jumps—because the game's visual language, roaring sound design,
+   and internal wasteland religion treat these machines as sacred relics of amad cult.
+
+10. Realism:
+    Grounded physical systems anchor the spectacle: vehicles obey realistic weight,
+    torque, tire traction on sand vs. mud, fuel consumption, and engine temperature.
+    Weapons have scarce, manually counted bullets (e.g., a 4-shot shotgun or a single
+    heavy sniper rifle that requires stabilization), and injuries require field bandages
+    or blood transfusions rather than instant magical regeneration.
+
+
+--------------------------------------------------------------------------------
+ITEM 2: CHARACTERS (25 Points)
+--------------------------------------------------------------------------------
+
+1. Hero:
+   Max Rockatansky & Imperator Furiosa (Co-Heroes). Max embodies the reluctant wandering
+   survivor who regains his humanity through selfless action; Furiosa embodies the
+   visionary liberator fighting for redemption and freedom.
+
+2. Shadow:
+   Immortan Joe (Hugh Keays-Byrne). He represents the dark mirror of leadership: where
+   Furiosa shares water and fights to free life, Joe hoards resources, enslaves people,
+   and sends brainwashed youth to die for a false paradise.
+
+3. Mentor:
+   The Keeper of the Seeds (an elder of the Vuvalini / Many Mothers). She preserves
+   heirloom plant seeds in a wasteland of bullets and teaches the crew that survival
+   means planting life where water exists—inspiring the return to the Citadel.
+
+4. Ally:
+   The Five Wives (Toast the Knowing, Capable, The Dag, Cheedo the Fragile, and The
+   Splendid Angharad) alongside the Vuvalini biker warriors. Toast reloads weapons and
+   drives; Capable rehabilitates Nux; the Vuvalini provide flanking motorcycle support.
+
+5. Guardian (Threshold Guardian):
+   The Rock Rider Chief & The Organic Mechanic. The Rock Riders guard the canyon pass,
+   testing Furiosa's bargaining and combat resolve before the convoy can enter the mid-game
+   wilderness.
+
+6. Trickster:
+   The Doof Warrior (Coma-Doof Warrior) & Slit. They inject chaotic energy, sonic madness,
+   and unpredictable battlefield disruption during high-speed chases.
+
+7. Herald:
+   The Splendid Angharad / Furiosa's sudden left turn off the Gas Town road. The moment
+   Furiosa breaks formation and the flares go up from the Citadel Watchtower signals the
+   call to adventure that shatters the status quo.
+
+8. Protagonist:
+   Imperator Furiosa (narrative driver whose decision initiates the entire plot and moral
+   goal) paired with Max Rockatansky (viewpoint survivor whose tactical pivot in Act III
+   resolves the climax).
+
+9. Antagonist — Transformational:
+   Nux (Nicholas Hoult). Begins as a fanatical War Boy desperate to kill Furiosa and die
+   "shiny and chrome" in Immortan Joe's eyes, but after failing Joe and receiving kindness
+   from Capable, transforms into a heroic ally who sacrifices himself to save the group.
+
+10. Antagonist — Mistaken:
+    Corpus Colossus (Immortan Joe's disabled, tactical-minded son at the Citadel telescope)
+    and the Brainwashed War Boy Pups. Born into Joe's cult, they genuinely believe Joe is
+    a divine deity and that Furiosa is stealing their future, until Joe's death exposes
+    the lie and they willingly lower the lifts for the people.
+
+11. Antagonist — Exaggerated:
+    Rictus Erectus, The People Eater (Mayor of Gas Town), and The Bullet Farmer. Towering,
+    grotesque embodiments of brute muscular savagery (Rictus), gluttonous corporate greed
+    (People Eater), and blind trigger-happy militarism (Bullet Farmer).
+
+12. Supporting Characters:
+    - The Valkyrie (Vuvalini scout who recognizes Furiosa as one of their own).
+    - Morsov (War Boy whose kamikaze leap establishes the War Boys' fanaticism).
+    - The Miss Giddy (Citadel historian/teacher who helped the Wives escape).
+    - The Wretched (Citadel citizens whose liberation represents the ultimate victory).
+================================================================================
