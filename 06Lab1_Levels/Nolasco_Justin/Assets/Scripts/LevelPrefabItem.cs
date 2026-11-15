@@ -2,11 +2,11 @@ using UnityEngine;
 
 /// <summary>
 /// Attached to modular 3D Prefabs in Level 1 and Level 2:
-/// - CollectibleOrb: spins and awards score when collected
-/// - MovingHazard: patrols back and forth or rotates; resets player to checkpoint on touch
+/// - CollectibleOrb: spins and awards score toward unlocking the Goal Portal
+/// - MovingHazard: patrols back and forth; hitting it deducts 1 Life (triggers Loss Condition at 0 Lives)
 /// - CheckpointArch: updates player's respawn checkpoint
-/// - BoostRamp: boosts player forward/upward when driven/walked onto
-/// - GoalPortal: completes the current level and loads the next level
+/// - BoostRamp: boosts player forward/upward when driven onto
+/// - GoalPortal: checks if all Orbs are collected and triggers Victory Condition
 /// </summary>
 public class LevelPrefabItem : MonoBehaviour
 {
@@ -71,7 +71,14 @@ public class LevelPrefabItem : MonoBehaviour
                 break;
 
             case PrefabType.MovingHazard:
-                player.RespawnAtCheckpoint();
+                if (LevelGameManager.Instance != null)
+                {
+                    LevelGameManager.Instance.OnPlayerHitHazardOrFell("Crashed into a Red Moving Hazard!");
+                }
+                if (LevelGameManager.Instance == null || !LevelGameManager.Instance.isGameOver)
+                {
+                    player.RespawnAtCheckpoint();
+                }
                 break;
 
             case PrefabType.CheckpointArch:

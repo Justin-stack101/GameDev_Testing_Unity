@@ -1,8 +1,12 @@
 using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 /// <summary>
 /// Controls the skateboarder player (04 Image 2) in Play2.unity.
 /// Allows jumping over obstacles (04 Image 3 and 04 Image 4) and horizontal movement.
+/// Compatible with both Unity Input System and Legacy Input Manager.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -34,8 +38,23 @@ public class PlayerController : MonoBehaviour
         if (GameManager.Instance != null && GameManager.Instance.isGameOver)
             return;
 
-        // Horizontal movement (A/D or Left/Right Arrow)
-        float horizontal = Input.GetAxisRaw("Horizontal");
+        float horizontal = 0f;
+        bool jumpPressed = false;
+
+#if ENABLE_INPUT_SYSTEM
+        if (Keyboard.current != null)
+        {
+            if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) horizontal += 1f;
+            if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) horizontal -= 1f;
+            jumpPressed = Keyboard.current.spaceKey.wasPressedThisFrame ||
+                          Keyboard.current.wKey.wasPressedThisFrame ||
+                          Keyboard.current.upArrowKey.wasPressedThisFrame;
+        }
+#else
+        horizontal = Input.GetAxisRaw("Horizontal");
+        jumpPressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
+#endif
+
         Vector2 velocity = _rb.linearVelocity;
         velocity.x = horizontal * moveSpeed;
         _rb.linearVelocity = velocity;
@@ -52,7 +71,7 @@ public class PlayerController : MonoBehaviour
         bool canJump = isGrounded || _groundContacts > 0 || (transform.position.y <= groundYThreshold && Mathf.Abs(_rb.linearVelocity.y) < 0.05f);
 
         // Jump input (Space, W, or UpArrow)
-        if (canJump && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+        if (canJump && jumpPressed)
         {
             Jump();
         }

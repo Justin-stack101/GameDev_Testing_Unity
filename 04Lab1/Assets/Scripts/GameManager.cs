@@ -1,8 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 /// <summary>
 /// Manages the game state, score objective, and HUD for 04Lab1 (Play2 scene).
+/// Compatible with both Unity Input System and Legacy Input Manager.
 /// </summary>
 public class GameManager : MonoBehaviour
 {
@@ -35,11 +39,25 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        bool restartPressed = false;
+        bool continuePressed = false;
+
+#if ENABLE_INPUT_SYSTEM
+        if (Keyboard.current != null)
+        {
+            restartPressed = Keyboard.current.rKey.wasPressedThisFrame;
+            continuePressed = Keyboard.current.spaceKey.wasPressedThisFrame || Keyboard.current.enterKey.wasPressedThisFrame;
+        }
+#else
+        restartPressed = Input.GetKeyDown(KeyCode.R);
+        continuePressed = Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
+#endif
+
+        if (restartPressed)
         {
             RestartGame();
         }
-        else if (isGameOver && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)))
+        else if (isGameOver && continuePressed)
         {
             RestartGame();
         }
